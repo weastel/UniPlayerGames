@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|ZCOOL+QingKe+HuangYou');
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(90deg,#00ff0099,#ff000099);
+}
+#pong{
+  border: solid 5px black;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #111;
+
+}
+
+#pong:hover{
+  box-shadow: none;
+}
+
+.green-glow{
+  background:#00ff0099
+}
+
+.red-glow{
+  background:#ff000099
+}
+
+.buttons{
+  margin: 50px;
+  display: flex;
+
+  width: 600px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.buttons>button{
+  padding: 10px;
+  background: #0066ff;
+  box-shadow: 0 0 25px #111;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+.buttons>button:hover{
+  background: indigo;
+  box-shadow: none;
+}
+
+h1{
+  font-size: 60px;
+  font-family: Inconsolata;
+  font-weight: bolder;
+  font-style: italic;
+}
+.status{
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
